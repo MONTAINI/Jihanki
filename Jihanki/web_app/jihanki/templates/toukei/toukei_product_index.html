@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    {% with product=product|first %}
+        <h2 class="page-header">商品統計一覧：{{ product.name }}（{{ product.maker}}）</h2>
+    {% endwith %}
+    <a href="{% url 'toukei_product_list' %}">商品一覧に戻る</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <td>1.</td>
+                <td><a href="{% url 'toukei_product_index' jan_code %}">総合売り上げ</a></td>
+                <td>2.</td>
+                <td><a href="{% url 'toukei_product_age' jan_code %}">年齢ごとの売り上げ</a></td>
+                <td>3.</td>
+                <td><a href="{% url 'toukei_product_profession' jan_code %}">職業ごとの売り上げ</a></td>
+                <td>4.</td>
+                <td><a href="{% url 'toukei_product_gen' jan_code %}">性別ごとの売り上げ</a></td>
+                <td>5.</td>
+                <td><a href="{% url 'toukei_product_area' jan_code %}">地域ごとの売り上げ</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container" style="width:80%; height:70%;">
+        <p>
+        <canvas id="myChart" width="2500" height="1100">お使いのブラウザはcanvasに対応していません。</canvas>
+        </p>
+    </div>
+
+</div>
+
+{% with product=product|first %}
+<script>
+    var str = {{str|safe}};
+    var valstr = {{earningsV|safe}};
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+        labels: str,
+            datasets: [{
+                label: "{{label}}",
+                borderWidth:1,
+                backgroundColor: "#121554",
+                borderColor: "#121554",
+                data: valstr
+            }]
+
+        },
+        options: {
+            title: {
+                display: true,
+                text: '{{product.name}}{{text}}', //グラフの見出し
+                padding:3,
+                fontSize:20
+            },
+            scales: {
+                xAxes: [{
+                        stacked: true,              //積み上げ棒グラフにする設定
+                        categoryPercentage:0.3,     //棒グラフの太さ
+                        barPercentage: 1,           //棒グラフ幅
+                        scaleLabel: {               //軸ラベル設定
+                            display: true,          //表示設定
+                            fontSize: 2             //フォントサイズ
+                         },
+                        ticks: {
+                            autoSkip: false,
+                            fontSize: 11             //フォントサイズ
+                        },
+                }],
+                yAxes: [{
+                        stacked: true //積み上げ棒グラフにする設定
+                }]
+            },
+            legend: {
+                labels: {
+                        boxWidth:10,
+                        padding:1 //凡例の各要素間の距離
+                },
+                display: true
+            },
+            tooltips:{
+                mode:'label' //マウスオーバー時に表示されるtooltip
+
+            }
+        }
+
+    });
+    </script>
+    {% endwith %}
+
+{% endblock %}

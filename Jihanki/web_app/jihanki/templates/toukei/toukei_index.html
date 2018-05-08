@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h2 class="page-header">統計一覧</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <td>1.</td>
+                <td><a href="{% url 'toukei_jihanki_list' %}">自動販売機毎の統計</a></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td><a href="{% url 'toukei_product_list' %}">商品ごとの統計</a></td>
+            </tr>
+            <!-- <tr>
+                <td>3.</td>
+                <td>全体の統計</td>
+            </tr> -->
+        </table>
+    </div>
+
+</div>
+
+{% endblock %}

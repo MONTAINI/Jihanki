@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="page-header">商品一覧</h2>
+
+        <form method="GET" action="" name="filter">
+            <input type="search" id="filter_name" name="product_name" size="50" placeholder="商品名">
+            <button id="filter">検索</button>
+        </form>
+
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>商品名</th>
+                    <th>JANコード</th>
+                    <th>メーカー</th>
+                    <th>メーカー価格</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for product in products %}
+                    <tr>
+                        <td>{{ product.name }}</td>
+                        <td>{{ product.jan_code }}</td>
+                        <td>{{ product.maker }}</td>
+                        <td>{{ product.maker_price }}</td>
+                        <td>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}

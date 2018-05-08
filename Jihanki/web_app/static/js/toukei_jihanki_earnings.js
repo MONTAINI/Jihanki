@@ -1,0 +1,44 @@
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+    labels: ["商品A","商品B", "商品C", "商品D", "商品E", "商品F", "商品G", "商品H", "商品I"],
+        datasets: [{
+            label: "売上",
+            borderWidth:1,
+            backgroundColor: "#121554",
+            borderColor: "#121554",
+            data: [500, 450, 560, 620, 380, 120, 88, 28, 27]
+        }]
+
+
+    },
+    options: {
+        title: {
+            display: true,
+            text: 'A自販機の一月の利用者の性別と年齢', //グラフの見出し
+            padding:3
+        },
+        scales: {
+            xAxes: [{
+                  stacked: true, //積み上げ棒グラフにする設定
+                  categoryPercentage:0.4 //棒グラフの太さ
+            }],
+            yAxes: [{
+                  stacked: true //積み上げ棒グラフにする設定
+            }]
+        },
+        legend: {
+            labels: {
+                  boxWidth:30,
+                  padding:20 //凡例の各要素間の距離
+            },
+            display: true
+        },
+        tooltips:{
+          mode:'label' //マウスオーバー時に表示されるtooltip
+
+        }
+    }
+
+});

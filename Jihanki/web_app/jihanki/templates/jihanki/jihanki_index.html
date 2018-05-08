@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="page-header">自動販売機一覧</h2>
+
+        <form method="GET" action="" name="filter">
+            <input type="search" id="filter_name" name="jihanki_name" size="50" placeholder="住所">
+            <button id="filter">検索</button>
+        </form>
+
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>自動販売機ID</th>
+                    <th>住所</th>
+                    <th>座標X</th>
+                    <th>座標Y</th>
+                    <th>お釣り</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for jihanki in jihankis %}
+                    <tr>
+                        <td>{{ jihanki.jihanki_id }}</td>
+                        <td><a href="{% url 'jihankiproduct_index' jihanki.jihanki_id %}">{{ jihanki.address }}</a></td>
+                        <td>{{ jihanki.coordinate_X }}</td>
+                        <td>{{ jihanki.coordinate_Y }}</td>
+                        <td>{{ jihanki.change }}</td>
+                        <td>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        {% with jihankiproduct=jihankiproducts|first %}
+            <h2 class="page-header">自動販売機商品一覧：{{ jihankiproduct.jihanki }}</h2>
+        {% endwith %}
+
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>商品名</th>
+                    <th>価格</th>
+                    <th>在庫</th>
+                    <th>表示位置</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for jihankiproduct in jihankiproducts %}
+                    <tr>
+                        <td>{{ jihankiproduct.product }}</td>
+                        <td>{{ jihankiproduct.price }}</td>
+                        <td>{{ jihankiproduct.stock }}</td>
+                        <td>{{ jihankiproduct.xy }}</td>
+                        <td>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

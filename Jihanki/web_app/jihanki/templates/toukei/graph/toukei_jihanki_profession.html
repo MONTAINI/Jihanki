@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    {% with jihankiproduct=jihankiproducts|first %}
+        <h2 class="page-header">職業ごとの売上：{{ jihankiproduct.jihanki }}</h2>
+    {% endwith %}
+
+<div class="container" style="width:50%">
+    <p>
+    <canvas id="myChart" width="600" height="400">お使いのブラウザはcanvasに対応していません。</canvas>
+    </p>
+</div>
+
+<script>
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+	  labels: ["10代","20代", "30代", "40代", "50代", "60代", "70代", "80代", "90代"],
+          datasets: [{
+              label: "売上",
+              borderWidth:1,
+              backgroundColor: "#121554",
+              borderColor: "#121554",
+              data: [500, 450, 560, 620, 380, 120, 88, 28, 27]
+          }]
+
+
+      },
+      options: {
+          title: {
+              display: true,
+              text: 'A自販機の一月の利用者の性別と年齢', //グラフの見出し
+              padding:3,
+          },
+          scales: {
+              xAxes: [{
+                    stacked: true, //積み上げ棒グラフにする設定
+                    categoryPercentage:0.4 //棒グラフの太さ
+              }],
+              yAxes: [{
+                    stacked: true //積み上げ棒グラフにする設定
+              }]
+          },
+          legend: {
+              labels: {
+                    boxWidth:30,
+                    padding:20 //凡例の各要素間の距離
+              },
+              display: true
+          },
+          tooltips:{
+            mode:'label' //マウスオーバー時に表示されるtooltip
+
+          }
+      }
+
+  });
+</script>
+
+{% endblock %}

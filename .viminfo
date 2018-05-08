@@ -1,0 +1,1073 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~Msle0~/\<str2\>
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:q!
+:Q!
+:q
+:.,.+10:
+:q1
+:w
+:qw
+:'<,'>q
+:set nu
+:.wq
+:wwq
+:.,.+
+::wq
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? \<str2\>
+? \<i\>
+? \<puts\>
+?/usr/bin/ruby
+? @$
+? \<fieldnames\>
+? \<listen\>
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	CHAR	0
+	b
+"1	LINE	0
+	
+"2@	LINE	0
+	./jihanki.sh Purchase.csv 'python3 /home/ServalChan/Jihanki/web_app/manage.py earnings && python3 /home/ServalChan/Jihanki/web_app/manage.py jihankiproduct && python3 /home/ServalChan/Jihanki/web_app/manage.py product'
+"3	LINE	0
+	./jihanki.sh Loading.csv 'python3 /home/ServalChan/Jihanki/web_app/manage.py earnings && python3 /home/ServalChan/Jihanki/web_app/manage.py jihankiproduct && python3 /home/ServalChan/Jihanki/web_app/manage.py product'
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	./jihanki.sh Purchase.csv 'python3 /home/ServalChan/Jihanki/web_app/manage.py earnings && python3 /home/ServalChan/Jihanki/web_app/manage.py jihankiproduct && python3 /home/ServalChan/Jihanki/web_app/manage.py product'
+"7	LINE	0
+	#!/bin/sh
+"8	LINE	0
+	
+"9	LINE	0
+	cd /home/ServalChan/Jihanki 
+""-	CHAR	0
+	1
+
+# ファイルマーク:
+'0  1  0  ~/Android.java
+'1  1  0  ~/Android.rb
+'2  1  0  ~/Person.csv
+'3  30  11  ~/Android.rb
+'4  28  21  ~/Android.rb
+'5  26  12  ~/Android.rb
+'6  44  0  ~/Android.rb
+'7  36  2  ~/Android.rb
+'8  1  3  ~/Loading.csv
+'9  1  3  ~/Purchase.csv
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/Android.java
+-'  1  0  ~/Android.rb
+-'  1  0  ~/Person.csv
+-'  30  11  ~/Android.rb
+-'  27  2  ~/Android.rb
+-'  28  21  ~/Android.rb
+-'  26  12  ~/Android.rb
+-'  44  0  ~/Android.rb
+-'  36  2  ~/Android.rb
+-'  1  3  ~/Loading.csv
+-'  1  3  ~/Purchase.csv
+-'  9  0  ~/jsonloading.sh
+-'  1  0  ~/jsonloading.sh
+-'  11  0  ~/outputjsonthree.sh
+-'  1  0  ~/outputjsonthree.sh
+-'  9  0  ~/outputjsonthree.sh
+-'  2  0  ~/Android.java
+-'  8  0  ~/outputjsonthree.sh
+-'  1  0  ~/Jihanki/web_app/requirements.txt
+-'  9  459  ~/Jihanki/web_app/static/LICENSE.md
+-'  1  0  ~/Jihanki/web_app/static/LICENSE.md
+-'  15  25  /etc/systemd/system/jihanki.service
+-'  1  0  /etc/systemd/system/jihanki.service
+-'  14  8  /etc/systemd/system/jihanki.service
+-'  7  14  /etc/systemd/system/jihanki.service
+-'  4  21  ~/andchange.py
+-'  1  0  ~/andchange.py
+-'  1  0  ~/A
+-'  1  0  ~/andch.json
+-'  29  22  ~/Android.rb
+-'  5  28  ~/andchange.py
+-'  1  22  ~/android.csv
+-'  46  2  ~/Android.rb
+-'  1  0  ~/Person.txt
+-'  31  12  ~/Android.rb
+-'  5  0  ~/pee.py
+-'  1  0  ~/pee.py
+-'  39  4  ~/Android.rb
+-'  2  4  ~/Android.rb
+-'  52  0  ~/Android.rb
+-'  14  34  ~/Jihanki/web_app/jihanki/management/commands/product.py
+-'  1  0  ~/Jihanki/web_app/jihanki/management/commands/product.py
+-'  14  34  ~/Jihanki/web_app/jihanki/management/commands/earnings.py
+-'  1  0  ~/Jihanki/web_app/jihanki/management/commands/earnings.py
+-'  14  34  ~/Jihanki/web_app/jihanki/management/commands/jihankiproduct.py
+-'  1  0  ~/Jihanki/web_app/jihanki/management/commands/jihankiproduct.py
+-'  48  0  ~/Android.rb
+-'  38  13  ~/Android.rb
+-'  22  57  ~/Jihanki/web_app/paa.sh
+-'  1  0  ~/Jihanki/web_app/paa.sh
+-'  23  4  ~/Jihanki/web_app/paa.sh
+-'  1  0  ~/Jihanki/web_app/test.txt
+-'  26  0  ~/Jihanki/web_app/paa.sh
+-'  40  1  ~/Android.rb
+-'  1  0  ~/jihanki.sh
+-'  27  0  ~/jihanki.sh
+-'  1  0  ~/test.txt
+-'  28  72  ~/jihanki.sh
+-'  23  67  ~/jihanki.sh
+-'  22  66  ~/jihanki.sh
+-'  47  10  ~/Android.rb
+-'  1  151  ~/jihanki_info.json
+-'  5  28  ~/west.py
+-'  1  0  ~/west.py
+-'  9  9  ~/Jihanki/web_app/zidou1.sh
+-'  1  0  ~/Jihanki/web_app/zidou1.sh
+-'  1  0  ~/Jihanki/web_app/zidou.sh
+-'  5  27  ~/Jihanki/web_app/zidou.sh
+-'  3  0  ~/Jihanki/web_app/zidou.sh
+-'  7  26  ~/Jihanki/web_app/zidou.sh
+-'  9  90  ~/Jihanki/web_app/zidou.sh
+-'  28  0  ~/Jihanki/web_app/paa.sh
+-'  1  142  ~/Jihanki/web_app/earnings.json
+-'  10  18  ~/west.py
+-'  4  0  ~/B.sh
+-'  1  0  ~/B.sh
+-'  1  0  ~/Jihanki/web_app/LP.json
+-'  4  51  ~/west.py
+-'  3  0  ~/pee.py
+-'  19  7  ~/test.rb
+-'  1  0  ~/test.rb
+-'  16  40  ~/Jihanki/mybook/mybook/urls.py
+-'  1  0  ~/Jihanki/mybook/mybook/urls.py
+-'  28  39  ~/Jihanki/mybook/mybook/settings.py
+-'  1  0  ~/Jihanki/mybook/mybook/settings.py
+-'  21  55  ~/Jihanki/mybook/mybook/urls.py
+-'  7  0  ~/Jihanki/mybook/api/urls.py
+-'  1  0  ~/Jihanki/mybook/api/urls.py
+-'  44  45  ~/Jihanki/mybook/api/views.py
+-'  1  0  ~/Jihanki/mybook/api/views.py
+-'  4  1  ~/Android_post
+-'  1  0  ~/Android_post
+-'  6  25  ~/execute.py
+-'  1  0  ~/execute.py
+-'  7  11  ~/execute.py
+-'  4  1  ~/Android.php
+-'  1  0  ~/Android.php
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/Android.java
+	"	1	0
+	^	1	1
+	.	1	1
+	+	1	1
+
+> ~/andchange.py
+	"	5	66
+	^	5	67
+	.	5	67
+	+	11	0
+	+	4	24
+	+	5	28
+	+	4	26
+	+	3	22
+	+	4	21
+	+	5	67
+
+> ~/Android.rb
+	"	27	15
+	^	27	16
+	.	27	16
+	+	1	0
+	+	2	0
+	+	38	39
+	+	39	2
+	+	41	1
+	+	39	32
+	+	41	0
+	+	39	41
+	+	41	17
+	+	43	4
+	+	39	1
+	+	41	19
+	+	43	2
+	+	41	14
+	+	39	36
+	+	40	11
+	+	41	16
+	+	42	8
+	+	41	13
+	+	2	0
+	+	27	46
+	+	29	34
+	+	33	13
+	+	37	4
+	+	27	46
+	+	28	30
+	+	28	42
+	+	28	5
+	+	28	52
+	+	28	52
+	+	26	1
+	+	25	36
+	+	28	53
+	+	2	16
+	+	28	35
+	+	25	16
+	+	28	53
+	+	28	41
+	+	28	72
+	+	28	2
+	+	28	41
+	+	28	2
+	+	28	43
+	+	28	2
+	+	27	16
+	+	26	42
+	+	29	12
+	+	27	43
+	+	28	43
+	+	28	2
+	+	16	11
+	+	26	19
+	+	27	43
+	+	29	12
+	+	28	43
+	+	29	2
+	+	27	16
+	+	33	0
+	+	28	43
+	+	29	2
+	+	28	49
+	+	33	1
+	+	29	2
+	+	33	32
+	+	29	0
+	+	27	0
+	+	33	42
+	+	34	13
+	+	36	0
+	+	37	0
+	+	31	14
+	+	35	4
+	+	32	16
+	+	34	15
+	+	27	16
+
+> ~/Person.csv
+	"	1	0
+
+> ~/raspberry/lot.txt
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/Loading.csv
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	0
+	+	1	3
+
+> ~/Purchase.csv
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	1
+	+	2	0
+	+	1	1
+	+	2	0
+	+	1	3
+
+> ~/jsonloading.sh
+	"	9	0
+	.	9	0
+	+	10	217
+	+	9	0
+
+> ~/outputjsonthree.sh
+	"	11	0
+	^	11	20
+	.	12	0
+	+	12	0
+	+	9	218
+	+	12	0
+	+	11	19
+	+	9	0
+	+	12	0
+
+> ~/Jihanki/web_app/requirements.txt
+	"	1	0
+	.	1	0
+	+	43	25
+	+	1	0
+
+> ~/Jihanki/web_app/static/LICENSE.md
+	"	9	459
+	^	9	460
+	.	9	395
+	+	9	395
+
+> /etc/systemd/system/jihanki.service
+	"	15	25
+	^	15	26
+	.	15	25
+	+	3	20
+	+	7	67
+	+	8	0
+	+	6	10
+	+	11	20
+	+	14	9
+	+	15	25
+
+> ~/andch.json
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/west.py
+	"	5	48
+	^	5	43
+	.	5	47
+	+	10	23
+	+	5	44
+	+	3	23
+	+	4	24
+	+	1	0
+	+	3	22
+	+	10	18
+	+	4	35
+	+	5	56
+	+	4	51
+	+	8	2
+	+	10	18
+	+	1	1
+	+	4	57
+	+	5	47
+
+> ~/A
+	"	1	0
+
+> ~/andch.py
+	"	1	0
+
+> ~/android.csv
+	"	1	22
+	^	1	25
+	.	1	25
+	+	1	25
+
+> ~/Person.txt
+	"	1	0
+
+> ~/pee.py
+	"	5	0
+	^	9	21
+	.	5	34
+	+	12	0
+	+	4	41
+	+	12	0
+	+	4	67
+	+	5	71
+	+	6	0
+	+	5	117
+	+	5	0
+	+	5	120
+	+	11	18
+	+	9	20
+	+	5	34
+
+> ~/Jihanki/web_app/jihanki/management/commands/import_loading.py
+	"	38	0
+
+> ~/Jihanki/web_app/jihanki/management/commands/product.py
+	"	14	34
+	^	14	35
+	.	14	34
+	+	14	34
+
+> ~/Jihanki/web_app/jihanki/management/commands/earnings.py
+	"	14	34
+	^	14	35
+	.	14	34
+	+	14	34
+
+> ~/Jihanki/web_app/jihanki/management/commands/jihankiproduct.py
+	"	14	34
+	^	14	35
+	.	14	34
+	+	14	34
+
+> ~/Jihanki/web_app/paa.sh
+	"	22	57
+	^	26	0
+	.	22	57
+	+	1	4
+	+	1	9
+	+	27	4
+	+	22	10
+	+	22	40
+	+	22	0
+	+	22	4
+	+	22	91
+	+	22	9
+	+	25	101
+	+	22	0
+	+	27	0
+	+	22	57
+
+> ~/Jihanki/web_app/test.txt
+	"	1	0
+
+> ~/jihanki.sh
+	"	1	0
+	.	28	0
+	+	1	0
+	+	1	9
+	+	27	0
+	+	2	0
+	+	22	56
+	+	23	0
+	+	23	0
+	+	28	0
+
+> ~/test.txt
+	"	1	0
+
+> ~/jihanki_info.json
+	"	1	151
+	^	1	152
+	.	1	151
+	+	1	151
+
+> ~/Jihanki/web_app/zidou1.sh
+	"	9	9
+	^	9	10
+	.	9	9
+	+	9	9
+
+> ~/Jihanki/web_app/zidou.sh
+	"	1	0
+	^	5	27
+	.	5	27
+	+	1	9
+	+	6	0
+	+	8	0
+	+	9	0
+	+	3	28
+	+	6	0
+	+	4	0
+	+	7	27
+	+	5	27
+
+> ~/Loa
+	"	1	0
+
+> ~/tcp.rb
+	"	24	30
+	^	24	31
+	.	24	31
+	+	3	16
+	+	6	20
+	+	7	11
+	+	9	61
+	+	12	32
+	+	15	33
+	+	16	41
+	+	39	29
+	+	30	36
+	+	23	51
+	+	9	49
+	+	14	17
+	+	19	23
+	+	20	64
+	+	25	25
+	+	27	15
+	+	23	39
+	+	28	2
+	+	33	15
+	+	34	52
+	+	36	3
+	+	19	47
+	+	24	31
+
+> ~/test.ruby
+	"	21	0
+	.	20	3
+	+	9	20
+	+	10	7
+	+	6	0
+	+	8	0
+	+	6	26
+	+	18	12
+	+	20	3
+
+> ~/Jihanki/web_app/earnings.json
+	"	1	142
+	^	1	143
+	.	1	142
+	+	1	0
+	+	1	226
+	+	1	0
+	+	1	224
+	+	2	0
+	+	1	0
+	+	1	226
+	+	1	142
+
+> ~/B.sh
+	"	4	0
+	^	4	0
+	.	3	51
+	+	2	0
+	+	3	51
+
+> ~/Jihanki/web_app/LP.json
+	"	1	0
+
+> ~/test.rb
+	"	1	14
+	^	1	15
+	.	1	14
+	+	21	0
+	+	1	14
+
+> ~/Jihanki/mybook/mybook/urls.py
+	"	16	40
+	^	16	41
+	.	16	40
+	+	21	11
+	+	16	40
+
+> ~/Jihanki/mybook/mybook/settings.py
+	"	28	39
+	^	28	40
+	.	28	38
+	+	28	38
+
+> ~/Jihanki/mybook/api/urls.py
+	"	7	0
+	^	7	1
+	.	7	0
+	+	7	0
+
+> ~/Jihanki/mybook/api/views.py
+	"	44	45
+	^	44	46
+	.	44	0
+	+	1	11
+	+	44	0
+
+> ~/Android_post
+	"	4	1
+	^	4	2
+	.	4	1
+	+	4	1
+
+> ~/execute.py
+	"	6	25
+	^	6	26
+	.	6	25
+	+	7	0
+	+	6	18
+	+	6	0
+	+	7	0
+	+	6	25
+
+> ~/Android.php
+	"	4	1
+	^	4	2
+	.	4	2
+	+	4	2
+
+> ~/Jihanki/web_app/jihanki/management/commands/import_earnings.py
+	"	32	20
+	^	32	22
+	.	32	20
+	+	36	70
+	+	37	66
+	+	38	66
+	+	39	67
+	+	40	69
+	+	36	75
+	+	37	71
+	+	38	71
+	+	39	75
+	+	40	78
+	+	22	51
+	+	39	17
+	+	31	17
+	+	32	21
+	+	31	16
+	+	32	20
+
+> ~/Jihanki/web_app/manage.py
+	"	1	0
+
+> ~/Android_POST.php
+	"	1	0
+	^	7	2
+	.	7	1
+	+	2	28
+	+	3	23
+	+	4	18
+	+	5	44
+	+	6	25
+	+	7	1
+
+> ~/POST_test.txt
+	"	1	0
+
+> ~/Bgroup.sh
+	"	1	0
+	^	3	51
+	.	3	50
+	+	3	50
+
+> ~/poo.py
+	"	4	38
+	^	9	24
+	.	4	37
+	+	1	0
+	+	1	10
+	+	10	0
+	+	9	22
+	+	4	37
+
+> ~/Jihanki/web_app/jihanki/views.py
+	"	50	49
+	.	50	49
+	+	50	49
+
+> ~/Jihanki/web_app/jihanki/models.py
+	"	58	4
+	^	58	6
+	.	58	4
+	+	58	4
+
+> ~/Jihanki/web_app/earinigs.json
+	"	1	0
+
+> ~/nohup.out
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/uwsgi/myweb/myweb_nginx.conf
+	"	27	0
+	^	25	48
+	.	25	47
+	+	27	0
+	+	10	18
+	+	12	28
+	+	19	41
+	+	25	47
+
+> ~/Jihanki/web_app/web_app_nginx.conf
+	"	28	0
+
+> /etc/nginx/nginx.conf
+	"	55	0
+	^	67	1
+	.	67	0
+	+	12	0
+	+	1	14
+	+	88	1
+	+	89	42
+	+	89	0
+	+	87	0
+	+	89	0
+	+	65	0
+	+	65	100
+	+	65	0
+	+	1	12
+	+	68	11
+	+	1	14
+	+	67	0
+
+> /etc/nginx/sites-available/default
+	"	93	0
+	^	20	3
+	.	17	1
+	+	54	1
+	+	52	1
+	+	54	0
+	+	51	22
+	+	52	93
+	+	53	0
+	+	52	98
+	+	51	17
+	+	52	93
+	+	51	22
+	+	52	102
+	+	51	17
+	+	52	93
+	+	43	13
+	+	51	22
+	+	52	98
+	+	51	23
+	+	52	102
+	+	51	17
+	+	52	42
+	+	17	2
+	+	18	33
+	+	20	12
+	+	43	25
+	+	20	2
+	+	17	1
+
+> /etc/nginx/sites-enabled/default
+	"	93	0
+	^	53	2
+	.	53	0
+	+	51	3
+	+	52	2
+	+	53	0
+
+> ~/Jihanki/web_app/web_app/settings.py
+	"	125	1
+	^	125	2
+	.	125	1
+	+	122	23
+	+	123	0
+	+	129	0
+	+	123	1
+	+	124	1
+	+	121	46
+	+	125	1
+
+> ~/uwsgi/myweb/myweb/settings.py
+	"	121	0
+	^	120	47
+	.	122	0
+	+	28	30
+	+	122	46
+	+	120	0
+	+	122	0
+
+> ~/Jihanki/web_app/Jihanki_nginx.conf
+	"	1	0
+	^	25	52
+	.	25	51
+	+	1	50
+	+	27	1
+	+	19	42
+	+	25	51
+
+> ~/Jihanki/web_app/uwsgi_params
+	"	16	44
+	^	16	45
+	.	16	0
+	+	16	0
+
+> ~/Jihanki/web_app/jihanki/templates/base.html
+	"	15	0
+	^	15	0
+	.	14	0
+	+	16	0
+	+	16	218
+	+	16	0
+	+	14	0
+
+> ~/re.py
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	18
+	+	1	0
+
+> ~/out.json
+	"	1	0
+
+> ~/result.json
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1839	0
+	+	1839	0
+	+	1	0
+
+> ~/logo.py
+	"	8	16
+	^	6	18
+	.	9	18
+	+	9	0
+	+	5	53
+	+	4	0
+	+	5	16
+	+	6	16
+	+	5	32
+	+	6	17
+	+	9	18
+
+> ~/watch.sh
+	"	8	6
+	^	8	7
+	.	8	7
+	+	28	0
+	+	3	0
+	+	9	0
+	+	8	7
+
+> ~/watch
+	"	1	0
+
+> /home/jihanki/Loading.csv
+	"	1	0
+
+> ~/取説.txt
+	"	1	47
+	^	1	48
+	.	1	47
+	+	1	47
+
+> ~/location.csv
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/needless.json
+	"	1	0
+
+> ~/lo
+	"	1	0
+
+> ~/hoge.sh
+	"	1	0
+	^	4	7
+	.	2	6
+	+	1	11
+	+	3	1
+	+	5	3
+	+	1	10
+	+	2	6
+
+> ~/test.sh
+	"	3	0
+	.	2	0
+	+	2	0
+
+> ~/output_log/out.log
+	"	1	0
+
+> ~/output_log/out.logcd
+	"	1	0
+
+> ~/hoge.py
+	"	1	0
+	^	1	1
+	.	1	1
+	+	1	0
+	+	1	0
+	+	1	10
+	+	1	13
+	+	1	19
+	+	1	15
+	+	1	0
+	+	1	25
+	+	1	9
+	+	9	23
+	+	1	0
+	+	3	23
+	+	4	32
+	+	5	0
+	+	1	1
+	+	6	31
+	+	5	0
+	+	6	42
+	+	5	26
+	+	1	1
+
+> ~/load.csv
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/src/test.sh
+	"	5	0
+	^	6	32
+	.	6	31
+	+	8	0
+	+	6	4
+	+	7	0
+	+	6	31
+
+> ~/src/test.py
+	"	3	39
+	^	3	40
+	.	3	23
+	+	3	23
+
+> ~/hobe
+	"	1	0
+
+> ~/resu
+	"	1	0
+
+> ~/change.py
+	"	14	0
+	^	14	0
+	.	14	0
+	+	9	35
+	+	11	31
+	+	11	24
+	+	11	33
+	+	15	35
+	+	16	22
+	+	11	33
+	+	14	0
+
+> ~/hoge.csv
+	"	1	0
+	^	2	0
+	.	2	0
+	+	4	0
+	+	2	0
+
+> /home/jihanki/Purchase.csv
+	"	1	0
+
+> /etc/vsftpd.chroot_list
+	"	3	9
+	^	3	10
+	.	3	9
+	+	2	7
+	+	3	9
+
+> /etc/vsftpd.user_list
+	"	1	0
+	^	1	9
+	.	1	0
+	+	1	0
+
+> /etc/vsftpd.conf
+	"	1	0
+	^	14	9
+	.	14	8
+	+	166	18
+	+	122	19
+	+	126	26
+	+	132	21
+	+	126	36
+	+	163	25
+	+	122	20
+	+	14	9
+	+	25	19
+	+	14	8
+
+> /etc/vsftpd,conf
+	"	1	0
+
+> /etc/init.d/vsftpd
+	"	103	0
+
+> ~/sugoi.txt
+	"	2	8
+	^	2	9
+	.	2	8
+	+	1	13
+	+	2	8
+
+> /etc/mysql/my.conf
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /etc/nginx/sites-enabled/myweb_nginx.conf
+	"	1	0
+	^	25	49
+	.	25	48
+	+	1	0
+	+	1	28
+	+	1	40
+	+	1	5
+	+	1	4
+	+	1	4
+	+	1	4
+	+	1	25
+	+	52	0
+	+	1	0
+	+	28	0
+	+	29	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	43	0
+	+	44	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	44	5
+	+	27	1
+	+	10	18
+	+	12	29
+	+	19	41
+	+	25	48
+
+> ~/uwsgi/myweb/uwsgi_params
+	"	16	44
+	^	16	45
+	.	16	0
+	+	16	0
+
+> ~/test/myweb/myweb/settings.py
+	"	119	0
+	^	26	13
+	.	26	12
+	+	40	11
+	+	28	31
+	+	121	46
+	+	28	18
+	+	121	45
+	+	28	19
+	+	119	45
+	+	26	12
+
+> /etc/nginx/fastcgi.conf
+	"	1	0
+
+> ~/env/lib/python3.5/site-packages/django/contrib/admin/templates/admin/base.html
+	"	1	0
